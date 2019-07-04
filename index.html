@@ -4,81 +4,93 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Allura|Barlow" rel="stylesheet">
-    <title>30 Days 30 Sites Event Invitation</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Emm and Hook Event Invitation</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <header>
-      <div class="full-width">
-        <div class="header-text">
-          <h1>Emma and Hook</h1>
+    <div class="container-fluid">
+      <header>
+        <nav class="navbar">
+          <h1 class="navbar-brand">Emma & Hook</h1>
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Wedding</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reception</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Where to Stay</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="col-12">
+          <h2>Emma and Hook</h2>
           <h3>are getting married!</h3>
           <h3>May 7, 2017</h3>
         </div>
-      </div>
-    </header>
-    <main>
-      <section id="couple">
-        <div class="full-width">
-          <h2>Emma & Hook</h2>
-          <img src="http://www.etonline.com/sites/default/files/images/2015-12/425_Once_Upon_a_Time_Hook_Emma.jpg" alt="Emma and Hook" />
-          <p>The black fairy has been defeated! We're celebrating by getting married. We
-            are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident,
-            sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </section>
+      </header>
+      <main>
+        <section id="couple">
+          <h2>Our Story</h2>
+          <p>At length the Parsonage was discernible. The garden sloping to the
+            road, the house standing in it, the green pales, and the laurel hedge,
+            everything declared they were arriving. Mr. Collins and Charlotte appeared
+            at the door, and the carriage stopped at the small gate which led by
+            a short gravel walk to the house, amidst the nods and smiles of the
+            whole party. In a moment they were all out of the chaise, rejoicing
+            at the sight of each other. Mrs. Collins welcomed her friend with the
+            liveliest pleasure, and Elizabeth was more and more satisfied with
+            coming when she found herself so affectionately received.</p>
 
-      <section id="love">
-        <div class="full-width">
-          <div class="celebrate-text">
-            <h2>We hope you can celebrate with us.</h2>
-            <h3>Our wedding is all about <span>true love</span>!</h3>
-          </div>
-        </div>
-      </section>
+            <p> She saw instantly that her cousin’s manners were not altered by his marriage;
+            his formal civility was just what it had been, and he detained her some
+            minutes at the gate to hear and satisfy his inquiries after all her
+            family. They were then, with no other delay than his pointing out the
+            neatness of the entrance, taken into the house; and as soon as they
+            were in the parlour, he welcomed them a second time, with ostentatious
+            formality to his humble abode, and punctually repeated all his wife’s
+            offers of refreshment.</p>
+        </section>
 
-      <section id="info">
-        <div class="full-width">
-          <div class="location">
-            <h2>The Wedding</h2>
-            <img src="http://www.phsoutlook.com/wp-content/uploads/2014/03/storybrooke.jpg" alt="Storybrooke" />
-          </div>
+        <section id="love">
+          <h2>We hope you can celebrate with us.</h2>
+          <h3>Our wedding is all about <span>true love</span>!</h3>
+        </section>
 
-          <div class="half-width">
+        <section id="location">
+          <h2>The Wedding</h2>
+          <img src="http://www.phsoutlook.com/wp-content/uploads/2014/03/storybrooke.jpg" alt="Storybrooke" />
+        </section>
+
+        <section id="info">
+          <div class="col-6">
             <h3>Where</h3>
             <p>Storybrooke, Maine</p>
             <p>top of the shoe store in Storybrooke</p>
           </div>
 
-          <div class="half-width">
+          <div class="col-6">
             <h3>When</h3>
             <p>Wedding Ceremony - 5:00p.m.</p>
             <p>Reception - 7:00p.m.</p>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="response">
-        <div class="full-width">
-          <div class="question">
-            <h2>Will you be joining us?</h2>
-            <h3>We hope you can help us celebrate!</h3>
-            <button id="rsvp" onclick="document.getElementById('#modal').style.display='none'">RSVP</button>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="full-width">
-        <p>&copy; BritishPandaChick 2018 All Rights Reserved</p>
-      </div>
-    </footer>
+        <section id="response">
+          <h2>Will you be joining us?</h2>
+          <h3>We hope you can help us celebrate!</h3>
+          <button class="btn btn-block btn-primary">RSVP</button>
+        </section>
+      </main>
+      
+      <footer>
+        <p>&copy; Sarah Bartley 2018-2019. All Rights Reserved</p>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="assets/app.js"></script>
   </body>
 </html>

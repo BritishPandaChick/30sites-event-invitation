@@ -1,0 +1,30 @@
+/* Base Styles */
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #FFFFF0;
+}
+
+/* Header */
+header {
+  background: url('http://www.etonline.com/sites/default/files/images/2017-05/1280_Once_Hook_Emma_Wedding_02.jpg');
+  background-size: cover;
+  height: 800px;
+}
+
+header h1 {
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  color: #FFFFF0;
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFF0;
+}
