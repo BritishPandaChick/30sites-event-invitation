@@ -1,7 +1,8 @@
 /* Base Styles */
 body {
   font-family: 'Barlow', sans-serif;
-  background-color: #FFFFF0;
+  background-color: #f8f8f5;
+  color: #333;
 }
 
 /* Navigation */
@@ -35,10 +36,64 @@ nav ul li a:hover {
 header {
   background: url('http://www.etonline.com/sites/default/files/images/2017-05/1280_Once_Hook_Emma_Wedding_02.jpg');
   background-size: cover;
-  height: 800px;
+  height: 500px;
+}
+
+header .greeting {
+  padding: 250px 0;
 }
 
 header h2 {
   font-size: 45px;
   font-family: 'Allura', cursive;
+  color: #f8f8f5;
+}
+
+header h3 {
+  font-size: 35px;
+  color: #c1dee7;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+
+/* Story */
+#story {
+  width: 100%;
+  padding: 50px 0;
+}
+
+#story h2 {
+  font-size: 45px;
+  font-family: 'Allura', cursive;
+  color: #f891a0;
+}
+
+#story img {
+  border: 5px solid #f891a0;
+}
+
+#story .story-text {
+  padding: 50px 0;
+}
+
+#story p {
+  line-height: 32px;
+  font-size: 20px;
+}
+
+/* Celebration */
+#celebration {
+  border: 2px solid red;
+  padding: 80px;
+  background-color: #c1dee7;
+}
+
+#celebration h2 {
+  font-size: 45px;
+  font-family: 'Allura', cursive;
+}
+
+#celebration h3 {
+  font-size: 35px;
+  line-height: 52px;
 }
