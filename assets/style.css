@@ -40,7 +40,7 @@ header {
 }
 
 header .greeting {
-  padding: 250px 0;
+  padding: 150px 0px;
 }
 
 header h2 {
@@ -83,7 +83,6 @@ header h3 {
 
 /* Celebration */
 #celebration {
-  border: 2px solid red;
   padding: 80px;
   background-color: #c1dee7;
 }
@@ -96,4 +95,57 @@ header h3 {
 #celebration h3 {
   font-size: 35px;
   line-height: 52px;
+}
+
+/* Location */
+#location {
+  padding: 50px 0;
+}
+
+#location h2 {
+  font-family: 'Allura', cursive;
+  font-size: 45px;
+  color: #f891a0;
+  padding-bottom: 15px;
+}
+
+#location img {
+  height: 350px;
+}
+
+#location p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* Info */
+#info {
+  border: 2px solid #c1dee7;
+  padding: 50px 0;
+}
+
+#info h3 {
+  font-size: 35px;
+  font-family: 'Allura', cursive;
+  color: #f891a0;
+}
+
+#info ul li {
+  font-size: 20px;
+}
+
+/* Response */
+#response {
+  border: 2px solid red;
+  padding: 50px 0;
+}
+
+#response h2 {
+  font-size: 45px;
+  font-family: 'Allura', cursive;
+}
+
+#response h3 {
+  font-size: 35px;
+  padding-bottom: 15px;
 }
