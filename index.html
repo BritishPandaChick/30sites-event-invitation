@@ -121,22 +121,28 @@
           <div class="container">
             <h2 class="text-center">Will you be joining us?</h2>
             <h3 class="text-center">We hope you can help us celebrate!</h3>
-            <button class="btn btn-block btn-primary" id="rsvp">RSVP</button>
+            <button class="btn btn-block btn-primary rsvp">RSVP</button>
 
-            <div id="rsvpModal" class="modal">
-              <div class="container modal-content">
-                <div class="modal-header">
-                  <span class="close">&times;</span>
-                  <h3>Will you be joining us?</h3>
-                </div>
+            <div class="modal">
+              <div class="overlay"></div>
+              <div class="modal-content">
+                <span class="close">x</span>
+                <h3>Will you be joining us?</h3>
 
                 <form>
                   <input type="text" name="Name(s)" placeholder="Name(s)">
                 </form>
                 <p>Love,</p>
                 <h4>Emma & Hook</h4>
-                <button class="btn btn-block btn-info">Accept</button>
-                <button class="btn btn-block btn-danger">Decline</button>
+                <div class="row">
+                  <div class="col-6">
+                    <button class="btn btn-block btn-info">Accept</button>
+                  </div>
+
+                  <div class="col-6">
+                    <button class="btn btn-block btn-danger">Decline</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

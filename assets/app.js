@@ -1,14 +1,19 @@
-/* Modal */
-var modal = document.getElementById('#rsvpModal');
-var rsvp = document.getElementById('#rsvp');
-var close = document.getElementByClassName('.close')[0];
+/* Variables */
+var modal = document.querySelector(".modal");
+var rsvpButton = document.querySelector(".rsvp");
+var closeButton = document.querySelector(".close");
 
-/* User Clicks button and opens modal */
-rsvp.onclick = function() {
-  modal.style.display = "block";
+/* Toggle Modal */
+function toggleModal() {
+  modal.classList.toggle("show-modal");
 }
 
-/* User clicks on X span and closes modal */
-close.onclick = function() {
-  modal.style.display = "none";
+function windowOnClick(event) {
+  if (event.target === modal) {
+    toggleModal();
+  }
 }
+
+rsvpButton.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick);
