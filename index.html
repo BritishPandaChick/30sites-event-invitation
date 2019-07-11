@@ -7,6 +7,7 @@
     <title>Emma and Hook Event Invitation</title>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container-fluid">
@@ -121,30 +122,9 @@
           <div class="container">
             <h2 class="text-center">Will you be joining us?</h2>
             <h3 class="text-center">We hope you can help us celebrate!</h3>
-            <button class="btn btn-block btn-primary rsvp">RSVP</button>
-
-            <div class="modal">
-              <div class="overlay"></div>
-              <div class="modal-content">
-                <span class="close">x</span>
-                <h3>Will you be joining us?</h3>
-
-                <form>
-                  <input type="text" name="Name(s)" placeholder="Name(s)">
-                </form>
-                <p>Love,</p>
-                <h4>Emma & Hook</h4>
-                <div class="row">
-                  <div class="col-6">
-                    <button class="btn btn-block btn-info">Accept</button>
-                  </div>
-
-                  <div class="col-6">
-                    <button class="btn btn-block btn-danger">Decline</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <button class="btn btn-block btn-primary" data-toggle="modal" data-target="#myModal">
+              <a data-toggle="modal" href="#myModal">RSVP</a>
+            </button>
           </div>
         </section>
       </main>
@@ -154,8 +134,38 @@
           <p>&copy; Sarah Bartley 2018-2019. All Rights Reserved</p>
         </div>
       </footer>
+
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="text-center">Can you come?</h3>
+          </div>
+
+          <div class="modal-body">
+            <form>
+              <input type="text" name="name(s)" placeholder="name(s)">
+              <div class="row">
+                <div class="col-6">
+                  <button class="btn btn-block btn-info">Going</button>
+                </div>
+
+                <div class="col-6">
+                  <button class="btn btn-block btn-danger">Decline</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="modal-footer">
+            <p class="text-center">Sincerely,</p>
+            <h4 class="text-center">Emma & Hook</h4>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <script type="text/javascript" src="assets/app.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>"
   </body>
 </html>
