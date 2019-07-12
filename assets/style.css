@@ -150,6 +150,20 @@ header h3 {
   padding-bottom: 15px;
 }
 
+/* Modal */
+#myModal {
+  width: 50%;
+}
+
+#myModal h3 {
+  font-size: 35px;
+  text-align: center;
+}
+
+#myModal p {
+  font-size: 20px;
+}
+
 /* Footer */
 footer {
   padding: 15px;
