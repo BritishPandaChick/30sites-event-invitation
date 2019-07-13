@@ -122,7 +122,7 @@
           <div class="container">
             <h2 class="text-center">Will you be joining us?</h2>
             <h3 class="text-center">We hope you can help us celebrate!</h3>
-            <button class="btn btn-block btn-primary" data-toggle="modal" data-target="#myModal">RSVP</button>
+            <button class="btn btn-block btn-primary" id="rsvp" data-toggle="modal" data-target="#myModal">RSVP</button>
           </div>
         </section>
       </main>
@@ -134,31 +134,34 @@
       </footer>
 
       <div class="modal fade" id="myModal" role="dialog">
-          <div class="modal-content">
+        <div class="modal-content">
+          <div class="rsvp-header">
+            <span class="close">&times;</span>
             <h3 class="text-center">Can you come?</h3>
             <p class="text-center">We hope you will be able to join us.</p>
-            <div class="modal-body">
-              <form>
-                <input type="text" name="name(s)" placeholder="name(s)">
-                <div class="row">
-                  <div class="col-6">
-                    <button class="btn btn-block btn-primary">Going</button>
-                  </div>
+          </div>
 
-                  <div class="col-6">
-                    <button class="btn btn-block btn-danger">Decline</button>
-                  </div>
+          <div class="rsvp-body">
+            <form>
+              <input type="text" name="name(s)" placeholder="name(s)">
+              <div class="row">
+                <div class="col-6">
+                  <button class="btn btn-block btn-success">Going</button>
                 </div>
-              </form>
-            </div>
 
-            <div class="modal-footer">
-              <p class="text-center">Sincerely,</p>
-              <h4 class="text-center">Emma & Hook</h4>
-            </div>
+                <div class="col-6">
+                  <button class="btn btn-block btn-danger">Decline</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="rsvp-footer">
+            <p class="text-center">Sincerely,</p>
+            <h4 class="text-center">Emma & Hook</h4>
+          </div>
         </div>
       </div>
-
     </div>
 
     <script type="text/javascript" src="assets/app.js"></script>
