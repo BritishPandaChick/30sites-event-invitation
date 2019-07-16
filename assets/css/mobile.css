@@ -1,0 +1,215 @@
+/* Basic Styles */
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #f8f8f5;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Navbar */
+nav {
+  border: 5px solid #f891a0;
+  width: 100%;
+}
+
+nav h1 {
+  font-family: 'Allura', cursive;
+  font-size: 55px;
+  color: #f891a0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f891a0;
+}
+
+nav ul li a:hover {
+  color: #c1dee7;
+}
+
+/* Header */
+header {
+  background: url('http://www.etonline.com/sites/default/files/images/2017-05/1280_Once_Hook_Emma_Wedding_02.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+}
+
+header .greeting {
+  padding: 150px 0px;
+}
+
+header h2 {
+  font-size: 35px;
+  font-family: 'Allura', cursive;
+  color: #f8f8f5;
+}
+
+header h3 {
+  font-size: 25px;
+  color: #c1dee7;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+
+/* Story */
+#story {
+  width: 100%;
+  padding: 50px 0;
+}
+
+#story h2 {
+  font-size: 25px;
+  font-family: 'Allura', cursive;
+  color: #f891a0;
+}
+
+#story img {
+  border: 5px solid #f891a0;
+}
+
+#story .story-text {
+  padding: 50px 0;
+}
+
+#story p {
+  line-height: 32px;
+  font-size: 18px;
+}
+
+/* Celebration */
+#celebration {
+  padding: 80px;
+  background-color: #c1dee7;
+}
+
+#celebration h2 {
+  font-size: 35px;
+  font-family: 'Allura', cursive;
+}
+
+#celebration h3 {
+  font-size: 25px;
+  line-height: 52px;
+}
+
+/* Location */
+#location {
+  padding: 50px 0;
+}
+
+#location h2 {
+  font-family: 'Allura', cursive;
+  font-size: 35px;
+  color: #f891a0;
+  padding-bottom: 15px;
+}
+
+#location img {
+  height: 350px;
+}
+
+#location p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/* Info */
+#info {
+  border: 2px solid #c1dee7;
+  padding: 50px 0;
+}
+
+#info h3 {
+  font-size: 25px;
+  font-family: 'Allura', cursive;
+  color: #f891a0;
+}
+
+#info ul li {
+  font-size: 18px;
+}
+
+/* Response */
+#response {
+  padding: 55px 0;
+  height: 300px;
+}
+
+#response h2 {
+  font-size: 35px;
+  font-family: 'Allura', cursive;
+}
+
+#response h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black with opacity */
+}
+
+.modal-content {
+  background-color: #f9e8ef;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.close:hover, .close:focus {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.rsvp-header {
+  padding-bottom: 15px;
+}
+
+#myModal h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+#myModal p {
+  font-size: 18px;
+}
+
+#myModal input {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.rsvp-footer {
+  padding-top: 15px;
+}
+
+#myModal h4 {
+  font-size: 20px;
+  font-family: 'Allura', cursive;
+}
+
+}
