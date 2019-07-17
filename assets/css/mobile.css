@@ -10,25 +10,25 @@ img {
 }
 
 /* Navbar */
-nav {
+.nav-container {
   border: 5px solid #f891a0;
   width: 100%;
 }
 
-nav h1 {
+.nav-container h1 {
   font-family: 'Allura', cursive;
   font-size: 55px;
   color: #f891a0;
 }
 
-nav ul li a {
+.nav-container nav ul li a {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
   color: #f891a0;
 }
 
-nav ul li a:hover {
+.nav-container nav ul li a:hover {
   color: #c1dee7;
 }
 
@@ -36,7 +36,7 @@ nav ul li a:hover {
 header {
   background: url('http://www.etonline.com/sites/default/files/images/2017-05/1280_Once_Hook_Emma_Wedding_02.jpg');
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   height: 500px;
 }
 
