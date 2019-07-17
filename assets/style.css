@@ -8,6 +8,7 @@ body {
 /* Navigation */
 nav {
   border: 5px solid #f891a0;
+  width: 100%;
 }
 
 nav h1 {

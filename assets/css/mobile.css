@@ -212,4 +212,8 @@ header h3 {
   font-family: 'Allura', cursive;
 }
 
+/* Footer */
+footer {
+  padding: 15px;
+  font-size: 18px;
 }
