@@ -5,30 +5,41 @@ body {
   color: #333;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Navigation */
-nav {
+.nav-container {
   border: 5px solid #f891a0;
+  width: 100%;
 }
 
-nav h1 {
+.nav-container h1 {
   font-family: 'Allura', cursive;
-  font-size: 55px;
+  font-size: 75px;
   color: #f891a0;
+  padding-left: 20px;
 }
 
-nav ul li {
+.nav-container nav {
+  float: right;
+  padding: 40px 0;
+}
+
+.nav-container nav ul li {
   display: inline-block;
   list-style: none;
 }
 
-nav ul li a {
+.nav-container nav ul li a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
   color: #f891a0;
 }
 
-nav ul li a:hover {
+.nav-container nav ul li a:hover {
   color: #c1dee7;
 }
 
@@ -44,13 +55,13 @@ header .greeting {
 }
 
 header h2 {
-  font-size: 45px;
+  font-size: 55px;
   font-family: 'Allura', cursive;
   color: #f8f8f5;
 }
 
 header h3 {
-  font-size: 35px;
+  font-size: 45px;
   color: #c1dee7;
   line-height: 52px;
   text-transform: uppercase;
@@ -63,7 +74,7 @@ header h3 {
 }
 
 #story h2 {
-  font-size: 45px;
+  font-size: 55px;
   font-family: 'Allura', cursive;
   color: #f891a0;
 }
@@ -88,12 +99,12 @@ header h3 {
 }
 
 #celebration h2 {
-  font-size: 45px;
+  font-size: 55px;
   font-family: 'Allura', cursive;
 }
 
 #celebration h3 {
-  font-size: 35px;
+  font-size: 45px;
   line-height: 52px;
 }
 
@@ -104,7 +115,7 @@ header h3 {
 
 #location h2 {
   font-family: 'Allura', cursive;
-  font-size: 45px;
+  font-size: 55px;
   color: #f891a0;
   padding-bottom: 15px;
 }
@@ -125,7 +136,7 @@ header h3 {
 }
 
 #info h3 {
-  font-size: 35px;
+  font-size: 45px;
   font-family: 'Allura', cursive;
   color: #f891a0;
 }
@@ -141,12 +152,12 @@ header h3 {
 }
 
 #response h2 {
-  font-size: 45px;
+  font-size: 55px;
   font-family: 'Allura', cursive;
 }
 
 #response h3 {
-  font-size: 35px;
+  font-size: 45px;
   padding-bottom: 15px;
 }
 
@@ -189,7 +200,7 @@ header h3 {
 }
 
 #myModal h3 {
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
 }
 
@@ -207,7 +218,7 @@ header h3 {
 }
 
 #myModal h4 {
-  font-size: 25px;
+  font-size: 35px;
   font-family: 'Allura', cursive;
 }
 
